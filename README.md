@@ -38,6 +38,9 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`)
 );
+
+INSERT INTO `users` (`username`, `password`) 
+VALUES ('admin', 'Hasil Hash Yang sudah didapat dari web');
 ```
 
 ### 4. Menjalankan Aplikasi
